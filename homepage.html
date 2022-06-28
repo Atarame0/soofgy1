@@ -1,0 +1,199 @@
+﻿<!doctype html>
+<html lang="heb">
+<head>
+    <meta charset="utf-8" />
+    <title>Soofgy homepage</title>
+    <link rel="icon" type="image/x-icon" href="hompage img/עותק של logo.png" width="10%" height="10%" >
+    <meta name="description" content="Soofgy homepage" />
+    <meta name="keywords" content="Soofgy" />
+    <meta name="author" content="atara menashe and sapir naor" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+    <!--<link href="styles/reset.css" rel="stylesheet" />-->
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-3.6.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript">  </script>
+    <body onload="showSlides()">
+
+</head>
+  <header>
+    <a href="homepage.html" class="logo-link">
+    <img id="logo" src="hompage img/logo.png"  width="30%" height="30%" alt="לוגו האתר -,  סופגי"  >
+    </a>
+    
+    <a class="skip-main" href="homepage.html">דלג לתוכן</a>
+    <div id="main-Nav" aria-label="main-Nav">
+        <ul class="navbar">
+          <li class="dropdown"><a href="homepage.html">דף הבית</a></li>
+          <li><a href="popular.html"> הפופולאריות</a></li>
+
+        
+          <li> <a href="diy.html">עשו זאת בעצמכם</a></li>
+        <li> <a href="#">הסיפורים שלכם</a></li>
+</div>
+</header>
+
+
+<section>
+<div id="secondNav">
+  <img id= "deco"  src="hompage img/NAV_BACK.png"  >
+
+
+  <h1>אוהבים סופגניות ורוצים לדעת עליהן יותר?
+    <br>
+    סופגי הוא המקום המתאים לכם!
+    </h1>
+
+  <ul class="secondnavbar">
+
+    <li > <a href="popular.html" class="logo-link">
+    <img src="hompage img/Untitled-3-01.png" alt="אייקון של סופגניות פופולאריות" width="30%" height="30%"></a><br>
+
+    הפופולאריות
+    </li>
+
+    <li > <a href="diy.html" class="logo-link">
+      <img src="hompage img/Untitled-1.png" alt="אייקון של עשו זאת בעצמכם" width="35%" height="35%"></a><br>
+    עשו זאת בעצמכם        
+      </li>
+
+      <li > <a href="#" class="logo-link">
+        <img src="hompage img/Untitled-2.png" alt="אייקון של הסיפורים שלכם" width="35%" height="35%"></a><br>
+    הסיפורים שלכם              
+</li>
+</div>
+</section>
+
+
+<main>
+<section>
+<h2>הפופולאריות שלנו</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+    <img src="hompage img/pic1.jpg" style="width:70%" alt="תמונה של סוםגניה ששל השמחות">
+    <br>
+    <p><b>סופגניה של השמחות</b></p>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+    <img src="hompage img/pic2.jpg" style="width:70%" alt="תמונה של סופגניה עם גלייזינג">
+    <br>
+    <p><b> סופגניה גלייזד </b></p>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+    <img src="hompage img/pic3.jpg" style="width:70%" alt="תמונה של סופגניה צבעונית שילדים אוהבים">
+    <br>
+    <p><b>סופגניה שילדים אוהבים </b></p>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+    <img src="hompage img/pic4.jpg" style="width:70%" alt="תמונה של סופגניה של שישי בצהריים">
+    <br>
+    <p><b>סופגניה של שישי בצהריים</b></p>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5/ 5</div>
+    <img src="hompage img/pic5.jpg" style="width:70%" alt=" תמונה של סופגניה של חמש בבוקר">
+    <br>
+    <p><b>סופגניה של חמש בבוקר ליד קפה</b></p>
+  </div>
+
+ <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+    
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="hompage img/pic1.jpg" style="width:100%" onclick="currentSlide(1)" alt="תמונה של סוםגניה ששל השמחות" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="hompage img/pic2.jpg" style="width:100%" onclick="currentSlide(2)"  alt="תמונה של סופגניה עם גלייזינג">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="hompage img/pic3.jpg" style="width:100%" onclick="currentSlide(3)" alt="תמונה של סופגניה צבעונית שילדים אוהבים">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="hompage img/pic4.jpg" style="width:100%" onclick="currentSlide(4)" alt="תמונה של סופגניה של שישי בצהריים">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="hompage img/pic5.jpg" style="width:100%" onclick="currentSlide(5)" alt=" תמונה של סופגניה של חמש בבוקר">
+    </div>
+   </div>
+</div>
+</section>
+
+
+
+
+
+
+ 
+
+<section>
+<div id="stories">
+ 
+  <img id= "deco"  src="hompage img/NAV_BACK.png"  width="100%"  >
+ <h1>הסיפורים שלכם...</h1>
+
+<div id="persona1">
+    <img id="persona1" src="hompage img/persona1.png" width="20%" height="30%" alt="תמונה של גלית"/>
+    <p>
+      דונאט של השמחות,גלית 29
+      <br>
+    ״אני רגילה לומר תמיד שיש לי יום יום חג.. אבל מה לגבי ימי חול?
+    <br>
+    מי אמר שדונאטס אוכלים רק בשמחות״
+    </p>
+<img id="persona3" src="hompage img/persona2.png" width="20%" height="30%" alt="תתמונה של אנטון"/>
+<p>
+  
+דונאטס מפריז, אנטון 26
+<br>
+" דונאטס איכותי צריך להיות עשיר בטעם סצפיצי אחד
+<br>
+בביקורי בפריז המליצו לי עוקבי על מאפייה המתמחה רק
+בהכנה זו, זכיתי לשירות...."
+</p>
+<img id="persona1" src="hompage img/persona3.png" width="20%" height="30%" alt="תמונה של ירקון"/>
+<p>
+     
+      הדונאטס שהציל אותי
+      ירקון חביב, 26
+      <br>
+      "טיילת בסיאטל, מקום יפה ובין הטיולים הייתי בגן יפה
+      הייתי מאוד רעב והתחשב לי לנשנש משהו...."
+   </p>
+</div>  
+</section>
+</main>
+
+
+
+
+<footer>
+<div id="footer">
+<ul class="navfooter">
+    <li class="dropdown"><a href="about .html">אודות</a></li>
+    <li class="dropdown"><a href="contact.html">צור קשר</a></li>
+    <li class="dropdown"><a href="Sitemap.html">מפת האתר</a></li>
+</ul>
+</div>
+</footer>
+
+
+</body>
+
+
+</html>

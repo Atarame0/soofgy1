@@ -1,0 +1,543 @@
+﻿body ,pre
+{
+    direction:rtl;
+    font-family: assistant;
+    text-align: right;
+    
+}
+
+
+
+ /* breadcrumbs */
+/*bread*/
+.bread {
+ 
+  text-decoration: underline;
+  color: #000000;
+  display: block;
+  font-family: miri;
+  font-size: 11px;
+
+}
+/* bread */
+nav ol li {
+display: inline-block;
+}
+nav ol li:after {
+    display: inline-block;
+    content: ">";
+}
+nav ol li:last-child:after {
+    content: "";
+}
+nav h2 p:first-letter{
+    color:rgb(194, 203, 238);
+    font-size:30pt;
+}
+
+
+
+
+
+
+
+
+h1 ,h2{
+  text-align: center;
+  color:rgb(154, 79, 67);
+  font-family:miri;
+  padding: 30px;
+
+  
+} 
+h3{
+  font-family:miri;
+
+}
+  
+header{
+    display: inline-block;
+    width: 100%;
+    
+}
+
+#logo{
+  float: left;
+ 
+   
+}
+
+
+#deco{
+  width: 1435px;
+  height: 281px;
+}
+
+.skip-main {
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+
+}
+
+
+
+
+
+
+ /* nav */
+#main-nav {
+    font-size: 16px;
+    padding: 14px 16px;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+  }
+  
+  .navbar {
+    
+    position: absolute;
+  }
+  
+  .navbar li {
+    height: auto;
+    width: 135.8px;
+    float: right;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 11px;
+  }
+  
+  .navbar a {
+    font-family:miri;
+    padding: 18px 0;
+    text-decoration: underline;
+    color: rgb(154, 79, 67);
+    display: block;
+  }
+  
+  .navbar li:hover,
+  .dropdown:hover {
+    background-color: #f8c8c8;
+    color: #5e2b2b  ;
+   
+  }
+  
+  .navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li:hover ul {
+    display: block;
+  }
+  
+  .navbar li ul li {
+    background-color: #fee7e7;
+  }
+  
+  
+/* nav-footer */
+.navfooter{
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  text-align: center;
+  background-color: rgb(255, 243, 238);
+  
+ 
+}
+.navfooter a {
+  font-family:miri;
+  padding: 18px 0;
+  text-decoration: underline;
+  color:  #5e2b2b ;
+  display: block;
+  font-size: 11px;
+}
+
+
+.navfooter li {
+  height: auto;
+  width: 135.8px;
+  display: inline-block;
+  list-style: none;
+}
+
+
+
+ /* homepage */
+ /* second nav */
+#secondNav{
+background-color:#FFF8F8;
+
+}
+
+.secondnavbar li{
+  height: 30%;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+
+}
+
+.secondnavbar li:hover
+ {
+    transform: scale(1.5);
+  }
+
+
+ 
+  /* gallery slideshow */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+   
+    position: relative;
+    height: 600px;
+    margin-right: -194px;
+   
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+ position: absolute;
+    text-align: center;
+    margin-right: 15%;
+    
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    position:absolute;
+    border-radius: 3px 0 0 3px;
+    top: 794px;
+    left:8%;
+  }
+
+  .prev{  
+   position: absolute;
+    top:793px;;
+    right: 22%;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(255, 200, 200, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 15px;
+    position: absolute;
+    padding: 10px 230px;
+  }
+  
+
+  
+  .row {
+    display: block;
+    height: 406px;
+    padding: 127px 142px;
+    margin-left: 141px;
+  }
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+
+
+
+/* STORIES*/
+
+#stories{
+  background-color: #FFF8F8;
+  display: inline-block;
+
+}
+
+#stories p{
+  text-align: center;
+  padding: 90px 238px;
+  font-size: 30px;
+
+}
+
+#stories1 p{
+  color: #5e2b2b;
+  text-align: center;
+  padding: 81px;
+ 
+ }
+
+#persona1{
+float: right;
+
+}
+
+
+
+#persona2{
+
+ float: left;
+}
+
+
+#persona3{
+
+  float: left;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact page*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+}
+
+input[type=submit] {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 40%;
+  padding: 3px 20px;
+
+}
+
+input[type=submit]:hover {
+  background-color: #fb7272;
+  color: #000000;
+  text-align: center;
+  
+  
+}
+
+
+.form{
+  font-size: 11px;
+  margin-top: 10px;
+  text-align: right;
+  background-color: #fee7e7;
+  padding: 45px;
+  width: 45%;
+  position: absolute;
+  height: 706px;
+  
+}
+
+#contactphoto{
+
+display:block;
+width: 100%;
+padding: 10px;
+height: 725px;
+resize: none;
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+    float: right;
+}
+
+
+
+
+
+/* about page*/
+
+
+.aboutform{
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: right;
+  background-color: #fee7e7;
+  padding: 45px;
+  width: 55%;
+  position: absolute;
+  height:  1071px;
+  
+}
+
+#aboutphoto{
+
+display:block;
+width: 100%;
+padding: 10px;
+height: 1090px;
+resize: none;
+margin: 46px;
+}
+
+.aboutimg{
+  position: absolute;
+  padding: 32px 2px;
+  margin: 6px;
+}
+
+
+
+/* popular page*/
+
+#popular{
+  position: inherit;
+  display: block;
+  background-color: #fee7e7;
+  padding: 113px;
+  margin: 80px;
+}
+
+#popularimg{
+  float: left;
+ 
+}
+
+
+/* map page*/
+
+
+
+.site{
+  font-size: 15px;
+  text-align: right;
+  background-color: #fee7e7;
+  padding: 54px 55px;
+  width: 40%;
+  position: absolute;
+  height:  706px;
+  
+}
+
+#sitephoto{
+
+  display: block;
+  resize: none;
+  margin-right: 358px;
+}
+
+
+/*recipe*/
+
+
+
+.diypic{
+  margin-right: 213px;
+    width: 151px;
+    height: 128px;
+    
+}
+ 
+.tips{
+  
+  padding: 54px;
+  background: #fee7e7;
+}
+
+
+
+/*video*/
+#video {
+  text-align: center;
+  background-color: #fee7e7;
+  padding: 101px;
+}
+
+span.b {
+  display: inline-grid;
+  width:601px;
+  height:  518px;
+  padding:94px 10px;
+  text-align: center;
+  margin: 50px;
+ 
+}
+
+
+
+.secondNav{
+  background-color: #5e2b2b;
+}
